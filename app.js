@@ -54,7 +54,7 @@ function checkAns(idx) {
             setTimeout(levelUp,1000);
         }
     } else {
-        h2.innerHTML = `Game Over! Your score was <b>${level}</b> <br> Press any to start game.`;
+        h2.innerHTML = `Game Over! Your score was <b>${level}</b> <br> Press any key to start.`;
         reset();
     }
 }
@@ -76,3 +76,4 @@ function reset() {
     }
     level = 0;
 }
+
